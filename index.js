@@ -8,6 +8,11 @@ const generateMarkdown = require('./utils/generateMarkdown')
 const questions = [
     {
       type: 'input',
+      name: 'title',
+      message: "What is your project's name?",
+    },
+    {
+      type: 'input',
       name: 'github',
       message: "What is your GitHub username?",
     },
@@ -15,11 +20,6 @@ const questions = [
       type: 'input',
       name: 'email',
       message: "What is your email address?",
-    },
-    {
-      type: 'input',
-      name: 'title',
-      message: "What is your project's name?",
     },
     {
       type: 'input',
@@ -35,13 +35,13 @@ const questions = [
     {
       type: 'input',
       name: 'installation',
-      message: "What command should be run to install dependencies?",
+      message: "What command should be run to install dependencies? Default is npm i ",
       default: 'npm i',
     },
     {
       type: 'input',
       name: 'test',
-      message: "What command should be run to run tests?",                                                                                                                                                                                                                  
+      message: "What command should be run to run tests? Default is npm test",                                                                                                                                                                                                                  
       default: 'npm test',
     },
     {

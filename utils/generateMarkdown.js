@@ -76,9 +76,9 @@ ${data.test}
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at ${
+If you have any questions. Feel free to contact me at: ${
     data.email
-  }. You can find more of my work at [${data.github}](https://github.com/${
+  }. Find more of my work here:  [${data.github}](https://github.com/${
     data.github
   }/).
 
